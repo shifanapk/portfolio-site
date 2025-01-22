@@ -36,15 +36,10 @@ function ResumeNew() {
       </Container>
       <footer
         style={{
-          backgroundColor: "#0b0c10",
-          color: "#fff",
           textAlign: "center",
           padding: "10px 0",
         }}
       >
-        Designed and Developed by Fathima Shifana P
-        <br />
-        Copyright © 2025 Sb
       </footer>
     </div>
   );
