@@ -43,8 +43,8 @@ function Home2() {
       src={image}
       alt="My Avatar"
       style={{
-        width: '400px',
-        height: '400px',
+        width: '350px',
+        height: '350px',
         borderRadius: '50%', 
         border: '5px solid #a855f7', 
         objectFit: 'cover', 
