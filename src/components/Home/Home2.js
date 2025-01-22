@@ -37,22 +37,26 @@ function Home2() {
               <br />
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+<Col md={4} className="myAvtar">
   <Tilt>
     <img
       src={image}
       alt="My Avatar"
       style={{
-        width: '350px',
-        height: '350px',
-        borderRadius: '50%', 
-        border: '5px solid #a855f7', 
-        objectFit: 'cover', 
-        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)', 
+        width: '80%', // Adjust width as a percentage
+        height: 'auto', // Maintain aspect ratio
+        borderRadius: '50%',
+        border: '5px solid #a855f7',
+        objectFit: 'cover',
+        boxShadow: '0 4px 10px rgba(0, 0, 0, 0.2)',
+        maxWidth: '200px', // Set a max width for larger screens
+        margin: '0 auto', // Center the image
+        display: 'block', // Center alignment
       }}
     />
   </Tilt>
 </Col>
+
 
         </Row>
         <Row>
